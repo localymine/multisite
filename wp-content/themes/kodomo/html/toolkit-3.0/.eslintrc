@@ -1,0 +1,33 @@
+{
+    "parser": "babel-eslint",
+    "rules": {
+        "no-throw-literal": 2,
+        "no-console": 0,
+        "no-return-assign": 0,
+        "radix": 1,
+        "wrap-iife": [2, "inside"],
+        "yoda": [0, "never"],
+        "strict": 0,
+        "global-strict": 0,
+        "no-undefined": 2,
+        "brace-style": [2, "1tbs"],
+        "consistent-this": [2, "self"],
+        "func-style": 0,
+        "quotes": [1, "single"],
+        "no-nested-ternary": 1,
+        "semi": [2, "always"]
+    },
+    "env": {
+        "browser": true,
+        "es6": true,
+        "jasmine": true
+    },
+    "globals": {
+        "Toolkit": true,
+        "TransitionEvent": true,
+        "__karma__": true,
+
+        "createElement": true,
+        "processInThread": true
+    }
+}

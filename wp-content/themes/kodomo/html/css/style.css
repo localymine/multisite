@@ -1,0 +1,26 @@
+/* 
+    Created on : Sep 25, 2015, 9:14:46 AM
+    Author     : khangld
+*/
+.jumbotron h1.title {
+  color: #269abc;
+}
+/* Smartphones (portrait and landscape) ----------- */
+/* Smartphones (landscape) ----------- */
+/* Smartphones (portrait) ----------- */
+/* iPads (portrait and landscape) ----------- */
+/* iPads (landscape) ----------- */
+/* iPads (portrait) ----------- */
+/* Desktops and laptops ----------- */
+/* Large screens ----------- */
+/* iPhone 4 ----------- */
+/* Larger than mobile */
+@media (max-width: 400px) {
+  .jumbotron h1.title {
+    color: #398439;
+  }
+}
+/* Larger than phablet */
+/* Larger than tablet */
+/* Larger than desktop */
+/* Larger than Desktop HD */
